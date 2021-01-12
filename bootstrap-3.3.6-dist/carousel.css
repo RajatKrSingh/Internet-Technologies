@@ -1,0 +1,272 @@
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.content {
+position: relative;
+font-size: 18px;
+margin-left: 130px;
+}
+
+
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+
+.carousel-caption {
+  z-index: 10;
+  
+}
+
+
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 900px;
+}
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.marketing h2 {
+  font-weight: normal;
+}
+
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.container .marketing p{
+font-size: 18px;
+}
+
+.busimg {
+  position: absolute;
+  margin-top: -280px;
+  float: top;
+  opacity: 0.6;
+}
+
+
+.img-circle {
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 120px;
+  width: 120px;
+ 
+}
+
+.img-circle1 {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+
+ 
+}
+.image {
+width: 25%;
+float: left;
+ }
+
+article h2 {
+margin-left: 520px;
+}
+
+.bp {
+position: relative;
+margin-left: 500px;
+top: 25px;
+align: center;
+}
+
+.gn{
+position: relative;
+margin-left: 500px;
+top: 25px;
+align: center;
+}
+
+.gn_name{
+position: relative;
+top: 20px;
+right: 257px;
+}
+
+.gn_id {
+position: relative;
+top: -7px;
+right: 7px;
+left: 230px;
+}
+
+.bp_from{
+position: relative;
+right: 215px;
+}
+
+
+.bp_to {
+position: absolute;
+right: 0px;
+top: 0px;
+margin-right: 490px;
+}
+
+.bp_date {
+position: relative;
+top: 32px;
+right: 220px;
+}
+
+.bp_date_rtn{
+position: relative;
+top: -3px;
+left: 230px;
+}
+
+.but{
+position: relative;
+top: 20px;
+left: 50px;
+font-color: #5a5a5a;
+}
+
+.but1{
+position: relative;
+top: 20px;
+left: 90px;
+font-color: #5a5a5a;
+}
+
+.fn_name{
+position: relative;
+top: 20px;
+left: 50px;
+}
+
+.fn_time {
+position: relative;
+top: -12px;
+right: 7px;
+left: 470px;
+}
+
+.fn_type{
+position: relative;
+top: -12px;
+right: 7px;
+left: 480px;
+}
+
+.fn_seat {
+position: relative;
+top: -45px;
+right: 7px;
+left: 930px;
+}
+
+.but2{
+position: relative;
+top: 20px;
+left: 600px;
+font-color: #5a5a5a;
+}
+
+footer{
+position: relative;
+top: 50px;
+
+.foot1{
+position: relative;
+margin-left: 100px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+
+ 
